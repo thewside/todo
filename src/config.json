@@ -1,0 +1,11 @@
+{
+    "projectNameLimit": 35,
+    "projectIcons": [
+        "home",
+        "bed",
+        "briefcase",
+        "car",
+        "medicine",
+        "party"
+    ]
+}

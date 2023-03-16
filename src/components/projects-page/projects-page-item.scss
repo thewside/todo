@@ -1,0 +1,33 @@
+$container-size: 80px;
+
+.no-pointer {
+    user-select: none;
+    pointer-events: none;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    &:hover {
+        // background-color: rgb(73, 73, 73);
+    }
+    a {
+        width: 100%;
+        height: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-wrap: break-word;
+        line-clamp: 2;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .name {
+        height: 100%;
+    }
+    h1 {
+        padding: 5px;
+    }
+}

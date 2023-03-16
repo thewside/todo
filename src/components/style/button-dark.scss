@@ -1,0 +1,12 @@
+.button-dark {
+    button {
+        color: grey;
+        background-color: rgb(43, 42, 42);
+        &:hover {
+            background-color: rgb(73, 73, 73);
+        }
+        &:active {
+            background-color: rgb(43, 43, 43);
+        }
+    }
+}

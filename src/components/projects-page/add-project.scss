@@ -1,0 +1,88 @@
+$border: 0.8vw;
+$add-project-container-size: 50px;
+$border-radius-angle: 10px;
+$icons-padding: 5px;
+
+.add-project-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.199);
+    border-radius: $border-radius-angle;
+
+    img {
+        min-width: 30px;
+        width:  70%;
+        height: 70%;
+    }
+}
+    
+.add-project-icons {
+    display: flex;
+    justify-content: center;
+    min-width: 40px;
+    max-width: 5vw;
+    width: 5vw;
+    height: 45px;
+    padding: 5px;
+    border-radius: $border-radius-angle 0 0 $border-radius-angle;
+}
+.add-icons-container {
+    position: relative;
+    left: 0;
+    height: 100%;
+}
+.selected-icon {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.add-icons-list {
+    margin-top: $icons-padding;
+    padding: $icons-padding;
+    border-radius: 0 0 $border-radius-angle $border-radius-angle;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.13);
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.add-project-name {
+    min-width: 10vw;
+    width: 100%;
+    height: 100%;
+    input {
+        border-radius: 2px;
+        padding-left: 5px;
+        height: 100%;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+}
+
+
+.add-project-button {
+    border-radius: 0 $border-radius-angle $border-radius-angle 0;
+    display: flex;
+    align-items: center;
+    button {
+        width: 100%;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+}
+.icons-list-dark {
+    background-color: rgb(43, 42, 42);
+}
+.project-icons-dark {
+    background-color: rgb(51, 55, 58);
+}

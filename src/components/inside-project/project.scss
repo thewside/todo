@@ -1,0 +1,52 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .project-title {
+        background-color: rgb(81, 129, 117);
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .project-icon{
+            align-self: center;
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+
+        .project-name {
+            font-size: 1rem;
+            padding-left: 10px;
+            h1 {
+                word-wrap: break-word;
+                word-break: break-all;
+                max-width: 300px;
+                min-width: 150px;
+                width: 100%;
+            }
+        }
+    }
+    .project-id {
+        font-size: 5px;
+    }
+}
+
+.project-not-choosed {
+    position: relative;
+    min-height: 5vh;
+    height: 100%;
+    min-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+       width: 50%;
+       height: 50%;
+    }
+}
